@@ -1,0 +1,17 @@
+{
+  "name": "ca-rheumatology-institute-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Production build pipeline for the California Rheumatology Institute static site. Builds dist/ from the 11 production HTML pages: minifies HTML/CSS/JS, obfuscates first-party JS, content-hashes first-party CSS/JS, and excludes orphan/draft/tooling files. Source files are never modified.",
+  "scripts": {
+    "build": "node build.js",
+    "verify": "node verify-dist.js",
+    "serve:dist": "node serve-dist.js"
+  },
+  "devDependencies": {
+    "clean-css": "^5.3.3",
+    "html-minifier-terser": "^7.2.0",
+    "javascript-obfuscator": "^4.1.1",
+    "terser": "^5.36.0"
+  }
+}

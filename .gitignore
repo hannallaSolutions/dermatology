@@ -1,0 +1,27 @@
+# OS/editor metadata
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+
+# Secrets / environment
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Backups
+*.bak
+*.backup
+backup/
+backups/
+
+# Build tooling
+node_modules/
+
+# Generated production output (built by `node build.js`, never hand-edited)
+dist/
+dist-manifest.json
