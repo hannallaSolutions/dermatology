@@ -83,40 +83,25 @@
 }
 
 
-#dr-forouzesh {
+#our-approach {
   text-align: center;
   background: #f7fbff;
   padding: 80px 15px;
 }
 
-#dr-forouzesh .doctor-photo {
-  width: 220px;
-  height: 220px;
-  border-radius: 50%;
-  border: 4px solid #41B5E5;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-  margin-bottom: 20px;
-  object-fit: cover;
-  transition: all 0.3s ease;
-}
-
-#dr-forouzesh .doctor-photo:hover {
-  transform: scale(1.05);
-}
-
-#dr-forouzesh .doctor-name {
+#our-approach .approach-title {
   color: #007bff;
   font-weight: 700;
   margin-top: 10px;
 }
 
-#dr-forouzesh .doctor-quote {
+#our-approach .approach-intro {
   font-style: italic;
   color: #666;
   margin-bottom: 20px;
 }
 
-#dr-forouzesh p {
+#our-approach p {
   color: #444;
   line-height: 1.7;
   font-size: 1rem;
@@ -155,65 +140,39 @@
 		  
   
 
-  #dr-forouzesh {
+  #our-approach {
   background: #f9fbff;
   padding: 60px 15px;
 }
 
-#dr-forouzesh p {
+#our-approach p {
   color: #555;
   line-height: 1.7;
   margin-bottom: 1rem;
 }
 
-#dr-forouzesh h3 {
+#our-approach h3 {
   font-weight: 700;
   margin-bottom: 10px;
-}
-
-#dr-forouzesh img {
-  border: 4px solid #fff;
-  transition: transform 0.3s ease;
-}
-
-#dr-forouzesh img:hover {
-  transform: scale(3.09);
-}
-#dr-forouzesh .doctor-photo {
-  object-position: top center;
 }
 
 
 /* Responsive */
 
-#dr-forouzesh {
+#our-approach {
   background: linear-gradient(180deg, #f9fbff 0%, #ffffff 100%);
   padding: 70px 15px;
   border-top: 1px solid #e8eef5;
 }
 
-#dr-forouzesh .doctor-photo {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border: 3px solid rgba(65,181,229,0.3);
-  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
-  transition: all 0.3s ease;
-}
-
-#dr-forouzesh .doctor-photo:hover {
-  transform: scale(1.04);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-}
-
-#dr-forouzesh .doctor-name {
+#our-approach .approach-title {
   color: #41B5E5;
   font-weight: 700;
   margin-bottom: 10px;
   position: relative;
 }
 
-#dr-forouzesh .doctor-name::before {
+#our-approach .approach-title::before {
   content: "";
   display: block;
   width: 60px;
@@ -223,7 +182,7 @@
   border-radius: 3px;
 }
 
-#dr-forouzesh p {
+#our-approach p {
   color: #444;
   font-size: 1.05rem;
   line-height: 1.75;
@@ -231,38 +190,28 @@
   margin: 0 auto 1rem;
 }
 
-#dr-forouzesh strong {
+#our-approach strong {
   color: #41B5E5;
   font-weight: 600;
 }
 
-#dr-forouzesh .doctor-quote {
+#our-approach .approach-intro {
   color: #666;
   margin-bottom: 1.5rem;
   font-size: 1.05rem;
 }
 
-#dr-forouzesh .contact-info {
-  margin-top: 1.5rem;
-  font-weight: 500;
-  color: #333;
-}
-
 /* Responsive tweaks */
 @media (max-width: 576px) {
-  #dr-forouzesh {
+  #our-approach {
     padding: 50px 10px;
   }
-  #dr-forouzesh .doctor-photo {
-    width: 160px;
-    height: 160px;
-  }
-  #dr-forouzesh p {
+  #our-approach p {
     font-size: 0.98rem;
   }
 }
 
-#dr-forouzesh::after {
+#our-approach::after {
   content: "";
   display: block;
   width: 80%;
